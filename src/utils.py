@@ -113,7 +113,7 @@ def test(model, device, test_loader, criterion):
         100. * correct / len(test_loader.dataset)))
 
 
-def plot_train_test_accuracy_loss(train_acc, train_losses, test_acc, test_losses):
+def plot_train_test_accuracy_loss():
     """
     This function is used to plot the training and testing accuracy as well as the training and testing loss.
     It creates a 2x2 grid of subplots in a figure to visualize the four plots.
